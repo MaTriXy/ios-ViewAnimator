@@ -1,6 +1,4 @@
-<!--# ViewAnimator-->
-
-<img src="https://cdn.rawgit.com/marcosgriselli/ViewAnimator/cf065e96/Resources/banner.svg" height="150"/>
+<img src="https://cdn.rawgit.com/marcosgriselli/ViewAnimator/3c78b078/Resources/banner.svg" height="80"/>
 
 **ViewAnimator** is a library for building complex iOS UIView animations in an easy way. It provides one line animations for any view included the ones which contain other views like UITableView and UICollectionView with its cells or UIStackView with its arrangedSubviews.
 
@@ -11,14 +9,10 @@
 [![License](https://img.shields.io/cocoapods/l/ViewAnimator.svg?style=flat)](http://cocoapods.org/pods/ViewAnimator)
 [![codebeat badge](https://codebeat.co/badges/633fb33d-66b6-4034-93c0-0f52c5d0e15c)](https://codebeat.co/projects/github-com-marcosgriselli-viewanimator-master)
 
-### Entire View
-<img src="https://cdn.rawgit.com/marcosgriselli/ViewAnimator/cf065e96/Resources/entireView.svg"/>
-
-### UITableView
+### Entire View&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UITableView&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UICollectionView
+<img src="https://cdn.rawgit.com/marcosgriselli/ViewAnimator/cf065e96/Resources/entireView.svg"/>&nbsp;&nbsp;&nbsp;&nbsp;
 <img src="https://cdn.rawgit.com/marcosgriselli/ViewAnimator/cf065e96/Resources/horizontal.svg"/>&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="https://cdn.rawgit.com/marcosgriselli/ViewAnimator/cf065e96/Resources/vertical.svg"/>
-
-### UICollectionView
+<img src="https://cdn.rawgit.com/marcosgriselli/ViewAnimator/cf065e96/Resources/vertical.svg"/>&nbsp;&nbsp;&nbsp;&nbsp;
 <img src="https://cdn.rawgit.com/marcosgriselli/ViewAnimator/cf065e96/Resources/collection.svg"/>&nbsp;&nbsp;&nbsp;&nbsp;
 <img src="https://cdn.rawgit.com/marcosgriselli/ViewAnimator/cf065e96/Resources/collectionX.svg"/>
 
@@ -93,12 +87,20 @@ If you are just trying to see how `ViewAnimator` can fit in your project and don
 view.animateRandom()
 ```
 
+## TODO
+
+- [ ] Add Carthage support.
+- [ ] Add SPM support.
+- [ ] Create protocols for the animation types.
+- [ ] Add more use cases to the example app.
+- [ ] Add autohide functionality.
+
 
 ## Project Details
 
 ### Requirements
 * Swift 4.0
-* Xcode 8.0+
+* Xcode 9.0+
 * iOS 9.0+
 
 ### Contributing
