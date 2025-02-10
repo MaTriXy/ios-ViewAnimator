@@ -36,6 +36,8 @@ SVG animations inspired by [Luke Zhao's](http://lkzhao.com) project [Hero](https
 
 UI created by [Messaki](https://dribbble.com/messaki), make sure to check out his profile.
 
+*Logo and banner created by [@cintia_ve](https://twitter.com/cintia_ve)*
+
 ## Installation
 
 ### CocoaPods
@@ -72,6 +74,8 @@ func animate(animations: [Animation],
              finalAlpha: CGFloat = 1.0,
              delay: Double = 0,
              duration: TimeInterval = ViewAnimatorConfig.duration,
+             usingSpringWithDamping dampingRatio: CGFloat = ViewAnimatorConfig.springDampingRatio,
+             initialSpringVelocity velocity: CGFloat = ViewAnimatorConfig.initialSpringVelocity,
              completion: (() -> Void)? = nil)
 ``` 
 
@@ -88,6 +92,8 @@ static func animate(views: [UIView],
                     delay: Double = 0,
                     animationInterval: TimeInterval = 0.05,
                     duration: TimeInterval = ViewAnimatorConfig.duration,
+                    usingSpringWithDamping dampingRatio: CGFloat = ViewAnimatorConfig.springDampingRatio,
+                    initialSpringVelocity velocity: CGFloat = ViewAnimatorConfig.initialSpringVelocity,
                     completion: (() -> Void)? = nil)
 ```
 
